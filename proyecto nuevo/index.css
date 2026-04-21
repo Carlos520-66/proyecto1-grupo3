@@ -1,0 +1,114 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    /*background-color: #B2EBF2;*/
+}
+
+h1{
+font-style: normal italic oblique;
+font-size: 70px;
+background-color: #03BB85;
+text-align: center;
+}
+
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-size: 28px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: #002612;
+}
+
+.color{
+    background-color: honeydew;
+}
+
+#inicio{
+    padding-bottom: 20px;
+    background-color: honeydew;
+    
+}
+
+#formulario{
+    background-image:url("https://p4.wallpaperbetter.com/wallpaper/388/595/585/minimalistic-landscape-mountains-forest-bird-wallpaper-preview.jpg");
+    padding: 60px 20px; 
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px;
+    border: 3px solid black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+input{
+    background-color: white;
+    border-radius: 8px;
+    padding-bottom: 14px;
+}
+
+textarea{
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+
+#boton{
+    border: 2px solid blue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;      
+    cursor: pointer;           
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+label{
+    font-size: 22px;
+    color: forestgreen;
+}
+
+a{
+    text-decoration:none;
+    color:#005227;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+ }
+ul li{
+    display: inline-block;
+    margin: 15px 55.5px;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease; 
+    
+}
+
+nav{
+    background-color: gainsboro;
+}
+
+p{
+    font-size: 18.5px;
+    padding-bottom: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #343E49;
+}
+
+#Repositorio{
+    font-size: 22px;
+}
+
+/*#justificacion{ 
+    background-color: honeydew;
+
+}*/
+        
+
+    

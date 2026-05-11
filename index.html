@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>AA1 - MI PAGINA WEB</title>
+    <link rel="stylesheet" href= "index.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Proyecto Web - AA1</h1>
+        <h2 class="color">Desarrollo de páginas web usando HTML</h2>
+    </header>
+
+
+    <!-- MENÚ DE NAVEGACIÓN (Pestañas) -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#descripcion">Descripción del producto</a></li>
+            <li><a href="#modelo">Modelo de negocio</a></li>
+            <li><a href="#justificacion">Justificación</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+        </ul>
+    </nav>
+
+    <!-- CUERPO DE LA PÁGINA -->
+
+    <!-- INICIO -->
+
+    <section id="inicio">
+        <h2 class="color">Inicio</h2>
+      
+        <p>Bienvenido, en Proyectos Web-AA1,entendemos que la tecnología es el motor de su organización. Ponemos a su disposición nuestro repositorio de conocimientos especializado para empresas. Desde la resolución de incidencias críticas hasta la optimización de flujos de trabajo en el SDLC (Ciclo de Vida de Desarrollo de Software), estamos aquí para asegurar la continuidad y excelencia de sus proyectos tecnológicos.</p>
+    </section>
+    
+    <script src="script.js"></script>
+
+    <!-- DESCRIPCIÓN DEL PRODUCTO -->
+    <section class="color" id="descripcion">
+        <h2>1. Descripción de la pagina</h2>
+
+        <h3>1.1 NET STORE</h3>
+        <p>Servicio digital a nivel nacional, servicio de programación y restauración de sistemas.</p>
+        <h3>1.2 Modelo de negocio</h3>
+        <p>Pagina web diseñada para resolver problemas de programación.</p>
+    </section>
+
+    <!-- PRODUCTOS -->
+<section id="productos" class="color">
+
+    <h2>Tienda NET STORE</h2>
+
+    <div class="producto">
+        <h3>Servicio de programación</h3>
+        <p>S/ 50</p>
+        <button onclick="agregarCarrito('Servicio de programación', 50)">
+            Agregar al carrito
+        </button>
+    </div>
+
+    <div class="producto">
+        <h3>Restauración de sistemas</h3>
+        <p>S/ 80</p>
+        <button onclick="agregarCarrito('Restauración de sistemas', 80)">
+            Agregar al carrito
+        </button>
+    </div>
+
+</section>
+
+
+    <!-- CARRITO -->
+<section id="carrito">
+
+    <h2>Carrito de compras</h2>
+
+    <ul id="lista-carrito"></ul>
+
+   <h3>Productos en carrito: <span id="contador">0</span></h3>
+   <h3>Total: S/ <span id="total">0</span></h3>
+
+</section>
+
+    <!-- JUSTIFICACIÓN -->
+    <section class="color" id="justificacion">
+        <h3>1.3 ¿A quienes nos dirigimos? </h3>
+        <p>Normalmente solemos atender un publico joven no mayores de los 40 pero siempre estamos dispuestos para atender a quien lo necesite :D.</p>
+
+        <h2>2. Enlace de publicación:</h2>
+        <a id="Repositorio" href="https://github.com/Carlos520-66/proyecto1-grupo3" target="_blank" rel="noopener noreferrer">Repositorio en GitHub</a>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section id="formulario">
+    <h2>Formulario</h2>
+
+    <form onsubmit="return false;">
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre"><br><br>
+
+        <label>Correo:</label><br>
+        <input type="email" name="correo"><br><br>
+
+        <label>Mensaje:</label><br>
+        <textarea name="mensaje"></textarea><br><br>
+
+        <!-- Botón modificado -->
+        <input type="button" value="Procesar" id="boton" onclick="procesarFormulario()">
+    </form>
+
+    <!-- Resultado -->
+    <p id="respuesta"></p>
+</section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="color">
+        <p>Autores: CARLOS RAMOS</p>
+        <p>JOSEPH PANDURO</p>
+        <P>NAYELI DE LA CRUZ</P>
+        <p>Curso: Lenguajes para el Desarrollo</p>
+        
+    </footer>
+
+</body>
+</html>
+
